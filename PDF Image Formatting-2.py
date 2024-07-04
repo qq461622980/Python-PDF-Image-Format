@@ -133,7 +133,7 @@ def process_pdf(input_pdf_path, output_pdf_path, brightness_threshold=75):
 
 if __name__ == '__main__':
     # 输入和输出PDF文件路径
-    input_pdf_path = r"D:\二公司\2023年度决算\2023年4季度\中兴财审补充资料\第二批：二公司\TEST.pdf"
+    input_pdf_path = r"D:\TEST.pdf"
     output_pdf_path = os.path.splitext(input_pdf_path)[0] + "改2.pdf"
 
     process_pdf(input_pdf_path, output_pdf_path)
